@@ -20,7 +20,7 @@ div {
   line-height: 0;
 }
 video {
-    position: absolute;
+    position: relative;
     border: none;
     object-fit: cover;
     outline: none;

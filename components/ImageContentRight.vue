@@ -1,0 +1,52 @@
+<template>
+  <div
+    v-editable="blok"
+    class="flex flex-row flex-wrap max-w-screen-lg space-x-24 items-center"
+  >
+    <div class="content-image">
+      <img :src="blok.image.filename" :alt="blok.altText" />
+    </div>
+    <div class="content flex flex-col space-y-8">
+      <h3 class="text-4xl">{{ blok.headline }}</h3>
+      <p>{{ blok.description }}</p>
+      <div>
+        <button
+          class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
+        >
+          {{ blok.buttonText }}
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  props: {
+    blok: {
+      type: Object,
+      required: true
+    }
+  }
+};
+</script>
+<style scoped>
+div {
+  position: relative;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.content-image {
+  max-width: 400px;
+  margin: auto;
+}
+
+.content {
+  max-width: 500px;
+  padding: 0px 8px 0px 14px;
+}
+
+.flex {
+  margin: auto;
+}
+</style>
