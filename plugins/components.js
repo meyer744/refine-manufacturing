@@ -6,6 +6,7 @@ import Feature from '~/components/Feature.vue'
 import VideoFullWidth from '~/components/VideoFullWidth.vue'
 import ImageContentLeft from '~/components/ImageContentLeft.vue'
 import ImageContentRight from '~/components/ImageContentRight.vue'
+import CallToAction from '~/components/CallToAction.vue'
 
 Vue.component('page', Page)
 Vue.component('hero', Hero)
@@ -14,3 +15,4 @@ Vue.component('feature', Feature)
 Vue.component('video-full-width', VideoFullWidth)
 Vue.component('image-content-left', ImageContentLeft)
 Vue.component('image-content-Right', ImageContentRight)
+Vue.component('call-to-action', CallToAction)

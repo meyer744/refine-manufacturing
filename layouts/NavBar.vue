@@ -52,6 +52,7 @@
       <div class="mobile">
       </div>
     </div>
+     <transition name="mobile-menu">
     <ul v-show="show">
       <li @click="toggleShow">
         <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/">Home</nuxt-link>
@@ -93,6 +94,7 @@
         </div>
       </li>
     </ul>
+    </transition>
   </nav>
 </template>
 
@@ -200,5 +202,15 @@ li {
   padding-left: 0px;
   max-width: 200px;
   justify-content: flex-start;
+}
+
+.mobile-menu-leave-to {
+ transition-timing-function: ease-in;
+ animation-duration: .1s;
+}
+
+.mobile-menu-enter {
+transition-timing-function: ease-out;
+animation-duration: .1s;
 }
 </style>

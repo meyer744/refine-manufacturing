@@ -1,6 +1,6 @@
 <template>
 <div  v-editable="blok" class="bg-white">
-<video width="100%" height="240px" autoplay muted>
+<video width="100%" height="240px" autoplay controls loop muted>
   <source :src="blok.video.filename" type="video/mp4">
 </video>
 </div>
