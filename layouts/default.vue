@@ -20,4 +20,7 @@ export default {
 body {
   font-family: sans-serif;
 }
+
+* { overflow: auto;
+}
 </style>
