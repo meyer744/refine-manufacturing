@@ -1,12 +1,12 @@
 <template>
   <div
     v-editable="blok"
-    class="flex flex-row flex-wrap-reverse max-w-screen-lg space-x-24 items-center"
+    class="flex flex-row flex-wrap-reverse max-w-screen-xl space-x-24 items-center"
   >
     <div class="content flex flex-col space-y-8">
-      <h3 class="text-4xl">{{ blok.headline }}</h3>
-      <p>{{ blok.description }}</p>
-      <div>
+      <h3 class="text-4xl text-center font-bold">{{ blok.headline }}</h3>
+      <p class="text-center">{{ blok.description }}</p>
+      <div class="button">
         <button
           class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
         >
@@ -48,5 +48,10 @@ div {
 
 .flex {
   margin: auto;
+}
+
+.button {
+    max-width: 200px;
+    align-self: center;
 }
 </style>

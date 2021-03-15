@@ -44,5 +44,6 @@ export default {
 
 button {
     max-width: 200px;
+    background-color: darkslategray;
 }
 </style>
