@@ -1,5 +1,5 @@
 <template>
-    <div class="header-image" v-editable="blok" :style="{ backgroundImage: `url(${blok.image.filename})` }">
+    <div class="header-image" v-editable="blok" :style="{ backgroundImage: `url(${blok.image.filename})`, backgroundColor: blok.backgroundColor}">
   <div class="header-title flex flex-col space-y-8 text-center">
     <h1 class="text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-bold text-white">{{blok.title}}</h1>
   </div>
