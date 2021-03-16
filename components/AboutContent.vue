@@ -34,6 +34,7 @@ div {
 .content-image {
   max-width: 400px;
   margin: auto;
+  margin-top: 0px;
 }
 
 .content {
