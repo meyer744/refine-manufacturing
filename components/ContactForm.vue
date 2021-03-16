@@ -5,7 +5,7 @@
     enctype="multipart/form-data"
     netlify-honeypot="bot-field"
     data-netlify="true"
-    @submit.prevent="submit"
+    action="/thanks"
   >
     <p class="hidden">
       <label
@@ -97,6 +97,7 @@
       </div>
       <button
         type="submit"
+        value="formSubmit"
         class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
       >
         SEND
