@@ -52,6 +52,7 @@
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
             placeholder="example@example.com"
+            required
           />
         </div>
         <div class="md:w-1/2 px-3 mb-6 md:mb-0">
