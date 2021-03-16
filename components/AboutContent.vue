@@ -2,7 +2,7 @@
   <div
     v-editable="blok"
     :style="{backgroundColor: blok.backgroundColor.color, minHeight: blok.pixelHeight + 'px'}"
-    class="flex flex-row flex-wrap max-w-screen-xl space-x-24 items-center"
+    class="flex flex-row flex-wrap max-w-full space-x-24 items-center"
   >
     <div class="content-image">
       <img :src="blok.image.filename" :alt="blok.altText" />
