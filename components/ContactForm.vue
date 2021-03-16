@@ -5,6 +5,7 @@
     enctype="multipart/form-data"
     netlify-honeypot="bot-field"
     data-netlify="true"
+    @submit.prevent="submit"
   >
     <p class="hidden">
       <label
@@ -22,7 +23,7 @@
             First Name
           </label>
           <input
-            name="first-name"
+            name="firstName"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
             type="text"
           />
@@ -34,7 +35,7 @@
             Last Name
           </label>
           <input
-            name="last-name"
+            name="lastName"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
           />
