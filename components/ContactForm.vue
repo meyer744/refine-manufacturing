@@ -21,6 +21,7 @@
             First Name
           </label>
           <input
+            name="first-name"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
             type="text"
           />
@@ -32,6 +33,7 @@
             Last Name
           </label>
           <input
+            name="last-name"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
           />
@@ -45,6 +47,7 @@
             Email Address
           </label>
           <input
+            name="email"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
             placeholder="example@example.com"
@@ -57,6 +60,7 @@
             Subject
           </label>
           <input
+            name="subject"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
           />
@@ -68,6 +72,7 @@
             File upload
           </label>
           <input
+            name="file"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="file"
           />
@@ -81,6 +86,7 @@
             Message:
           </label>
           <textarea
+            name="message"
             class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
             type="text"
             placeholder="write your message here...."
