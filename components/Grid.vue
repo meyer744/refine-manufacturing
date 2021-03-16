@@ -1,6 +1,6 @@
 <template>
+<div v-editable="blok" :style="{backgroundColor: blok.backgroundColor.color}">
   <ul
-    v-editable="blok"
     class="flex justify-center flex-wrap py-8 mb-6 max-w-screen-xl align-cener">
     <li
       :key="blok._uid"
@@ -9,6 +9,7 @@
       <component :blok="blok" :is="blok.component" />
     </li>
   </ul>
+  </div>
 </template>
  
 <script>

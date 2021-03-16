@@ -3,9 +3,6 @@
     v-editable="blok"
     class="py-2 text-center feature">
     <font-awesome-icon :key="blok.icon" class="feature-icon" :icon="blok.icon" />
-    <!-- <img
-      class="mx-auto"
-      :src="blok.icon"> -->
     <h1 class="text-lg">{{ blok.name }}</h1>
     <p class="text-gray-600">
       {{ blok.description }}
