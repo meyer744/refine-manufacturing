@@ -2,9 +2,8 @@
   <form
     name="contact"
     method="POST"
-    enctype="multipart/form-data"
     netlify-honeypot="bot-field"
-    data-netlify="true"
+    netlify
     action="/thanks"
   >
     <p class="hidden">
