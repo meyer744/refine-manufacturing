@@ -8,6 +8,7 @@ import ImageContentLeft from '~/components/ImageContentLeft.vue'
 import ImageContentRight from '~/components/ImageContentRight.vue'
 import CallToAction from '~/components/CallToAction.vue'
 import PageHeader from '~/components/PageHeader.vue'
+import AboutContent from '~/components/AboutContent.vue'
 
 Vue.component('page', Page)
 Vue.component('hero', Hero)
@@ -18,3 +19,4 @@ Vue.component('image-content-left', ImageContentLeft)
 Vue.component('image-content-Right', ImageContentRight)
 Vue.component('call-to-action', CallToAction)
 Vue.component('page-header', PageHeader)
+Vue.component('about-content', AboutContent)
