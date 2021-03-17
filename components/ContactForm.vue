@@ -97,7 +97,7 @@
       </div>
       <button
         type="submit"
-        value="formSubmit"
+        name="button"
         class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
       >
         SEND
