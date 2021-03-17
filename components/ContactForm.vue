@@ -103,7 +103,16 @@
     </div>
   </form>
 </template>
-
+<script>
+export default {
+  props: {
+    blok: {
+      type: Object,
+      required: true
+    }
+  }
+};
+</script>
 <style scoped>
 .contact-form {
   margin: auto;
