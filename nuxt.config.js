@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "refine-manufacturing",
+    title: "refine-manufacturing | Custom Wood Manufacturing and Fabrication",
     htmlAttrs: {
       lang: "en"
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      { hid: "description", name: "description", content: "From low volume custom productions, to high volume OEM standard production, we can cover it all. We didn’t invent wood manufacturing, but we’re here to Refine it." }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
