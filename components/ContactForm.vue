@@ -4,7 +4,6 @@
     method="POST"
     netlify-honeypot="bot-field"
     data-netlify="true"
-    action="/thanks"
   >
     <p class="hidden">
       <label
@@ -22,7 +21,7 @@
             First Name
           </label>
           <input
-            name="firstName"
+            name="first-name"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
             type="text"
           />
@@ -34,7 +33,7 @@
             Last Name
           </label>
           <input
-            name="lastName"
+            name="last-name"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
           />
@@ -48,7 +47,7 @@
             Email Address
           </label>
           <input
-            name="email"
+            name="email-address"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
             placeholder="example@example.com"
@@ -73,7 +72,7 @@
             File upload
           </label>
           <input
-            name="file"
+            name="file-upload"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="file"
           />
@@ -104,16 +103,7 @@
     </div>
   </form>
 </template>
-<script>
-export default {
-  props: {
-    blok: {
-      type: Object,
-      required: true
-    }
-  }
-};
-</script>
+
 <style scoped>
 .contact-form {
   margin: auto;

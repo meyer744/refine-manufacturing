@@ -1,5 +1,6 @@
 <template>
   <section>
+      <contact-form></contact-form>
     <component
       v-if="story.content.component"
       :key="story.content._uid"
@@ -9,8 +10,9 @@
 </template>
 
 <script>
-
+import ContactForm from '../../components/ContactForm.vue'
 export default {
+  components: { ContactForm },
   data () {
     return {
       story: { content: {} }
