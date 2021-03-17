@@ -1,6 +1,5 @@
 <template>
   <section>
-      <contact-form></contact-form>
     <component
       v-if="story.content.component"
       :key="story.content._uid"
