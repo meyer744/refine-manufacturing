@@ -137,7 +137,7 @@ nav {
   list-style: none;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .hamburger {
     display: none;
   }
@@ -148,7 +148,7 @@ nav {
     display: none;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1199px) {
   ul {
     flex-direction: column;
     align-items: baseline;
