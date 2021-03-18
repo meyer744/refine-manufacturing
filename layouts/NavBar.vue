@@ -19,17 +19,12 @@
         <li class="ml-20">
           <button
             class="border-solid border border-orange bg-orange-500 rounded-md text-white p-2"
-          > CONTACT NOW
+          ><nuxt-link to="/contact">CONTACT NOW</nuxt-link>
           </button>
         </li>
         <li>
           <a class="icon" href="https://www.facebook.com/meyer744/">
             <font-awesome-icon :icon="['fab', 'facebook-f']" />
-          </a>
-        </li>
-        <li>
-          <a class="icon" href="https://github.com/meyer744">
-            <font-awesome-icon :icon="['fab', 'github']" />
           </a>
         </li>
         <li>
@@ -72,11 +67,6 @@
               </a>
             </li>
             <li>
-              <a class="icon" href="https://github.com/meyer744">
-                <font-awesome-icon :icon="['fab', 'github']" />
-              </a>
-            </li>
-            <li>
               <a class="icon" href="mailto:meyer.744@gmail.com">
                 <font-awesome-icon :icon="['far', 'envelope']" />
               </a>
@@ -89,7 +79,7 @@
           </ul>
           <button
             class="border-solid border border-orange bg-orange-500 rounded-md text-white p-2"
-          > CONTACT NOW
+          ><nuxt-link to="/contact">CONTACT NOW</nuxt-link>
           </button>
         </div>
       </li>
