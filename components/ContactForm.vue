@@ -2,10 +2,9 @@
   <form
     name="contact"
     method="POST"
-    netlify-honeypot="bot-field"
     data-netlify="true"
   >
-      <input type="hidden" name="form-name" :value="formName">
+      <!-- <input type="hidden" name="form-name" :value="formName"> -->
     <div
       class="contact-form bg-white shadow-2xl rounded px-8 pt-6 pb-8 flex flex-col max-w-5xl border"
     >
