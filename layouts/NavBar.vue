@@ -2,16 +2,31 @@
   <nav>
     <ul class="desktopMenu">
       <li>
-        <nuxt-link to="/"><img class="brand" src="../assets/Images/cropped-Refine-Manufacturing-Logo500px.png" alt="refine-manufacturing"></nuxt-link>
+        <nuxt-link to="/"
+          ><img
+            class="brand"
+            src="../assets/Images/cropped-Refine-Manufacturing-Logo500px.png"
+            alt="refine-manufacturing"
+        /></nuxt-link>
       </li>
       <li>
-        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/">Home</nuxt-link>
+        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/"
+          >Home</nuxt-link
+        >
       </li>
       <li>
-        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/about">About Us</nuxt-link>
+        <nuxt-link
+          class="navigation-link ml-2 text-lg font-semibold"
+          to="/about"
+          >About Us</nuxt-link
+        >
       </li>
       <li>
-        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/contact">Contact Us</nuxt-link>
+        <nuxt-link
+          class="navigation-link ml-2 text-lg font-semibold"
+          to="/contact"
+          >Contact Us</nuxt-link
+        >
       </li>
     </ul>
     <div>
@@ -19,71 +34,91 @@
         <li class="ml-20">
           <button
             class="border-solid border border-orange bg-orange-500 rounded-md text-white p-2"
-          ><nuxt-link to="/contact">CONTACT NOW</nuxt-link>
+          >
+            <nuxt-link to="/contact">CONTACT NOW</nuxt-link>
           </button>
         </li>
         <li>
-          <a class="icon" href="https://www.facebook.com/meyer744/">
+          <a class="icon" href="https://www.facebook.com/refineproductsohio">
             <font-awesome-icon :icon="['fab', 'facebook-f']" />
           </a>
         </li>
         <li>
-          <a class="icon" href="mailto:meyer.744@gmail.com">
+          <a class="icon" href="mailto:info@refinemanufacturing.com">
             <font-awesome-icon :icon="['far', 'envelope']" />
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a class="icon" href="https://www.linkedin.com/in/jack-v-meyer/">
             <font-awesome-icon :icon="['fab', 'linkedin-in']" />
           </a>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div class="mobile-menu">
       <div @click="toggleShow" class="hamburger">
         <font-awesome-icon :icon="['fas', 'bars']" />
       </div>
-      <nuxt-link class="brand mobile" to="/"><img class="brand" src="../assets/Images/cropped-Refine-Manufacturing-Logo500px.png" alt="refine-manufacturing"></nuxt-link>
-      <div class="mobile">
-      </div>
+      <nuxt-link class="brand mobile" to="/"
+        ><img
+          class="brand"
+          src="../assets/Images/cropped-Refine-Manufacturing-Logo500px.png"
+          alt="refine-manufacturing"
+      /></nuxt-link>
+      <div class="mobile"></div>
     </div>
-     <transition name="mobile-menu">
-    <ul v-show="show">
-      <li @click="toggleShow">
-        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/">Home</nuxt-link>
-      </li>
-      <li @click="toggleShow">
-        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/about">About Us</nuxt-link>
-      </li>
-      <li @click="toggleShow">
-        <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/contact">Contact Us</nuxt-link>
-      </li>
-      <li>
-        <div class="mobile-social-icons">
-          <ul class="icon-list">
-            <li>
-              <a class="icon" href="https://www.facebook.com/meyer744/">
-                <font-awesome-icon :icon="['fab', 'facebook-f']" />
-              </a>
-            </li>
-            <li>
-              <a class="icon" href="mailto:meyer.744@gmail.com">
-                <font-awesome-icon :icon="['far', 'envelope']" />
-              </a>
-            </li>
-            <li>
+    <transition name="mobile-menu">
+      <ul v-show="show">
+        <li @click="toggleShow">
+          <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/"
+            >Home</nuxt-link
+          >
+        </li>
+        <li @click="toggleShow">
+          <nuxt-link
+            class="navigation-link ml-2 text-lg font-semibold"
+            to="/about"
+            >About Us</nuxt-link
+          >
+        </li>
+        <li @click="toggleShow">
+          <nuxt-link
+            class="navigation-link ml-2 text-lg font-semibold"
+            to="/contact"
+            >Contact Us</nuxt-link
+          >
+        </li>
+        <li>
+          <div class="mobile-social-icons">
+            <ul class="icon-list">
+              <li>
+                <a
+                  class="icon"
+                  href="https://www.facebook.com/refineproductsohio"
+                >
+                  <font-awesome-icon :icon="['fab', 'facebook-f']" />
+                </a>
+              </li>
+              <li>
+                <a class="icon" href="mailto:info@refinemanufacturing.com">
+                  <font-awesome-icon :icon="['far', 'envelope']" />
+                </a>
+              </li>
+              <!-- <li>
               <a class="icon" href="https://www.linkedin.com/in/jack-v-meyer/">
                 <font-awesome-icon :icon="['fab', 'linkedin-in']" />
               </a>
-            </li>
-          </ul>
-          <button
-            class="border-solid border border-orange bg-orange-500 rounded-md text-white p-2"
-          ><nuxt-link to="/contact">CONTACT NOW</nuxt-link>
-          </button>
-        </div>
-      </li>
-    </ul>
+            </li> -->
+            </ul>
+            <button
+              @click="toggleShow"
+              class="border-solid border border-orange bg-orange-500 rounded-md text-white p-2"
+            >
+              <nuxt-link to="/contact">CONTACT NOW</nuxt-link>
+            </button>
+          </div>
+        </li>
+      </ul>
     </transition>
   </nav>
 </template>
@@ -195,12 +230,12 @@ li {
 }
 
 .mobile-menu-leave-to {
- transition-timing-function: ease-in;
- animation-duration: .1s;
+  transition-timing-function: ease-in;
+  animation-duration: 0.1s;
 }
 
 .mobile-menu-enter {
-transition-timing-function: ease-out;
-animation-duration: .1s;
+  transition-timing-function: ease-out;
+  animation-duration: 0.1s;
 }
 </style>

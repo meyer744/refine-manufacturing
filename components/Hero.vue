@@ -19,21 +19,20 @@
         </p>
         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div class="rounded-md shadow">
-            <a
-              href="#"
+            <nuxt-link :to="{path: blok.buttonLink}"
               class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10"
             >
-              Get started
-            </a>
+              {{blok.buttonText}}
+            </nuxt-link>
           </div>
-          <div class="mt-3 sm:mt-0 sm:ml-3">
+          <!-- <div class="mt-3 sm:mt-0 sm:ml-3">
             <a
               href="#"
               class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-orange-200 hover:bg-orange-100 md:py-4 md:text-lg md:px-10"
             >
               Live demo
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </main>
