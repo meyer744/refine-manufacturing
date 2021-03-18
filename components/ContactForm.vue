@@ -5,9 +5,7 @@
     netlify-honeypot="bot-field"
     data-netlify="true"
   >
-    <div class="hidden">
-      <label>Don’t fill this out if you’re human:</label><input name="bot-field">
-    </div>
+      <input type="hidden" name="form-name" :value="formName">
     <div
       class="contact-form bg-white shadow-2xl rounded px-8 pt-6 pb-8 flex flex-col max-w-5xl border"
     >
