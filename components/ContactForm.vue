@@ -5,11 +5,9 @@
     netlify-honeypot="bot-field"
     data-netlify="true"
   >
-    <p class="hidden">
-      <label
-        >Don’t fill this out if you’re human:</label><input name="bot-field"
-      />
-    </p>
+    <div class="hidden">
+      <label>Don’t fill this out if you’re human:</label><input name="bot-field">
+    </div>
     <div
       class="contact-form bg-white shadow-2xl rounded px-8 pt-6 pb-8 flex flex-col max-w-5xl border"
     >
@@ -24,7 +22,7 @@
             name="first-name"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
             type="text"
-          />
+          >
         </div>
         <div class="md:w-1/2 px-3">
           <label
@@ -36,7 +34,7 @@
             name="last-name"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
-          />
+          >
         </div>
       </div>
       <div class="-mx-3 md:flex mb-2">
@@ -51,7 +49,7 @@
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
             placeholder="example@example.com"
-          />
+          >
         </div>
         <div class="md:w-1/2 px-3 mb-6 md:mb-0">
           <label
@@ -63,7 +61,7 @@
             name="subject"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="text"
-          />
+          >
         </div>
         <div class="md:w-1/2 px-3">
           <label
@@ -75,7 +73,7 @@
             name="file-upload"
             class="appearance-none block w-11/12 bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
             type="file"
-          />
+          >
         </div>
       </div>
       <div class="-mx-3 md:flex mb-6 mt-8">
