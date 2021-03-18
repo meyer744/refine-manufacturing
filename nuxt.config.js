@@ -43,7 +43,7 @@ fontawesome: {
 },
 
 googleAnalytics: {
-    id: 'G-G00GXLYF2S'
+    id: 'UA-192511197-1'
 },
 
   // Modules: https://go.nuxtjs.dev/config-modules
