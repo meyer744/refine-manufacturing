@@ -29,7 +29,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
+    '@nuxtjs/google-analytics',
     "@nuxtjs/tailwindcss",
     "@nuxtjs/fontawesome",
   ],
@@ -40,6 +40,10 @@ fontawesome: {
     brands: true,
     regular: true
   }
+},
+
+googleAnalytics: {
+    id: 'G-G00GXLYF2S'
 },
 
   // Modules: https://go.nuxtjs.dev/config-modules
