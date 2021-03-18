@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "refine-manufacturing | Custom Wood Manufacturing and Fabrication",
+    title: "Refine Manufacturing | Custom Wood Manufacturing and Fabrication",
     htmlAttrs: {
       lang: "en"
     },
