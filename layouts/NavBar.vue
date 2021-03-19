@@ -127,7 +127,6 @@
 
 <script>
 export default {
-  props: ["resumeLink"],
   data() {
     return {
       show: false
@@ -168,7 +167,6 @@ nav {
   justify-content: center;
   list-style: none;
 }
-
 @media screen and (min-width: 1200px) {
   .hamburger {
     display: none;
@@ -235,12 +233,10 @@ li {
   max-width: 200px;
   justify-content: flex-start;
 }
-
 .mobile-menu-leave-to {
   transition-timing-function: ease-in;
   animation-duration: 0.1s;
 }
-
 .mobile-menu-enter {
   transition-timing-function: ease-out;
   animation-duration: 0.1s;
