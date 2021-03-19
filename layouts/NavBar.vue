@@ -141,11 +141,11 @@ export default {
 </script>
 
 <style scoped>
-.nav-container {
+/* .nav-container {
   width: 100%;
   position: absolute;
   z-index: 1;
-}
+} */
 nav {
   background-color: #ffffff;
   display: flex;
@@ -182,6 +182,13 @@ nav {
   ul {
     flex-direction: column;
     align-items: baseline;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 239px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    z-index: 2;
   }
   .desktopMenu {
     display: none;
