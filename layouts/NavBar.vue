@@ -151,7 +151,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .hamburger {
   color: rgb(46, 45, 49);
