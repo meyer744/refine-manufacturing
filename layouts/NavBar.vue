@@ -1,4 +1,5 @@
 <template>
+<div class="nav-container">
   <nav>
     <ul class="desktopMenu">
       <li>
@@ -121,6 +122,7 @@
       </ul>
     </transition>
   </nav>
+  </div>
 </template>
 
 <script>
@@ -140,6 +142,10 @@ export default {
 </script>
 
 <style scoped>
+.nav-container {
+  width: 100%;
+  position: absolute;
+}
 nav {
   background-color: #ffffff;
   display: flex;
