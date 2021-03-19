@@ -212,7 +212,7 @@ li {
   color: #443d3e;
 }
 .brand {
-  max-width: 40%;
+  max-width: 33%;
 }
 .mobile-menu {
   display: flex;
