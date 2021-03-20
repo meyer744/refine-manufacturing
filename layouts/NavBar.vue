@@ -56,7 +56,7 @@
         </li> -->
       </ul>
     </div>
-    <div class="mobile-menu">
+    <div class="mobile-menu-bar">
       <div @click="toggleShow" class="hamburger">
         <font-awesome-icon :icon="['fas', 'bars']" />
       </div>
@@ -69,7 +69,7 @@
       <div class="mobile"></div>
     </div>
     <transition name="mobile-menu">
-      <ul v-show="show">
+      <ul class="mobile-menu" v-show="show">
         <li @click="toggleShow">
           <nuxt-link class="navigation-link ml-2 text-lg font-semibold" to="/"
             >Home</nuxt-link
@@ -179,15 +179,15 @@ nav {
   }
 }
 @media screen and (max-width: 1199px) {
-  ul {
+  .mobile-menu {
     flex-direction: column;
     align-items: baseline;
     position: absolute;
     background-color: white;
     width: 100%;
+    height: 195px;
     margin-top: 239px;
     padding-top: 0px;
-    padding-bottom: 20px;
     z-index: 2;
   }
   .desktopMenu {
@@ -221,7 +221,7 @@ li {
 .brand {
   max-width: 33%;
 }
-.mobile-menu {
+.mobile-menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
