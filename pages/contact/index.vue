@@ -51,7 +51,7 @@ export default {
     // Load the JSON from the API - loadig the home content (index page)
     return context.app.$storyapi
       .get("cdn/stories/contact", {
-        version: "draft"
+        version: "published"
       })
       .then(res => {
         console.log(res.data);
