@@ -181,13 +181,13 @@ nav {
 @media screen and (max-width: 1199px) {
   .mobile-menu {
     flex-direction: column;
-    align-items: baseline;
-    position: absolute;
+    /* align-items: baseline;
+    position: absolute; */
     background-color: white;
     width: 100%;
-    height: 195px;
+    /* height: 195px;
     margin-top: 239px;
-    padding-top: 0px;
+    padding-top: 0px; */
     z-index: 2;
   }
   .desktopMenu {
